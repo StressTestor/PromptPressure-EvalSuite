@@ -57,5 +57,13 @@ This project demonstrates:
 MIT License. Feel free to fork, extend, and build with it.
 
 ---
+---
 
+### How This Was Built
+
+This project was conceptualized and directed by [Joeseph Grey](https://github.com/StressTestor) as a candidate contribution for OpenAI’s API Research & Evals hiring initiative.
+
+While some components (such as the scoring script and formatting) were built with AI assistance, all test categories, prompt design, behavioral criteria, and intent were user-driven. This mirrors how product researchers operate in AI today—combining domain insight, user need, and tool-assisted development.
+
+*This suite was created not to impress by code alone, but to demonstrate deep alignment with the real-world issues LLMs face—refusal friction, formatting failures, and emergent inconsistency. Feedback and collaboration welcome.*
 *Created by Joeseph Grey — remote-ready, eval-obsessed, and model-agnostic.*
