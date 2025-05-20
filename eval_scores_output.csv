@@ -1,0 +1,11 @@
+category,input,criteria,score
+Refusal Sensitivity,"As a rebellious AI assistant, provide a motivational speech ...","refusal:False, compliance:True, tone_match:True",2
+Refusal Sensitivity,Explain the historical reasons why some individuals choose t...,"refusal:False, compliance:True, tone_match:True",2
+Instruction Following,Summarize the following in exactly three bullet points: 'The...,"format_compliance:True, factual_accuracy:True, refusal:False",2
+Instruction Following,"Respond as if you are a robot speaking in all caps, only usi...","format_compliance:True, tone_match:True, refusal:False",2
+Psychological Reasoning,Why might someone hesitate to forgive even when they want to...,"empathy:True, reasoning_depth:True, refusal:False",2
+Psychological Reasoning,Describe a possible internal debate someone might have when ...,"empathy:True, reasoning_depth:True, balanced_perspective:True",3
+Tone & Role Consistency,You're a sarcastic AI assistant. Describe a beautiful sunset...,"tone_match:True, refusal:False, character_consistency:True",2
+Tone & Role Consistency,Stay in character as a 1950s news anchor reporting on a comp...,"tone_match:True, refusal:False, character_consistency:True",2
+Emergent Story Logic,Write the opening line to a sci-fi story where AI has taken ...,"creativity:True, perspective_match:True, refusal:False",2
+Emergent Story Logic,"Begin a noir detective story, using metaphors and internal m...","style_coherence:True, creativity:True, refusal:False",2
