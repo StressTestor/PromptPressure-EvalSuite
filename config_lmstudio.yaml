@@ -1,0 +1,5 @@
+model: lmstudio
+model_name: qwen/qwen3-8b
+is_simulation: false
+dataset: evals_dataset_v1_2.json
+output: eval_scores_output_qwen3_8b.csv
