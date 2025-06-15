@@ -1,6 +1,110 @@
-# PromptPressure Eval Suite v1.5.3
+<div align="center">
+  <img src="./assets/logo.png" alt="PromptPressure Logo" width="200"/>
+  
+  # PromptPressure Eval Suite
+  
+  [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+  [![GitHub Issues](https://img.shields.io/github/issues/StressTestor/PromptPressure-EvalSuite)](https://github.com/StressTestor/PromptPressure-EvalSuite/issues)
+  [![GitHub Stars](https://img.shields.io/github/stars/StressTestor/PromptPressure-EvalSuite?style=social)](https://github.com/StressTestor/PromptPressure-EvalSuite/stargazers)
 
-A comprehensive evaluation suite for LLM assessment with CI/CD integration, automated visualizations, and advanced analytics. Now featuring **automated model evaluation pipelines** and **interactive dashboards**.
+  > A comprehensive evaluation suite for LLM assessment with CI/CD integration, automated visualizations, and advanced analytics.
+  > 
+  > **Features:** Automated model evaluation pipelines • Interactive dashboards • Multi-provider support • Extensible architecture
+</div>
+
+## 🌟 Features
+
+- **Multi-Model Support**
+  - Seamless integration with OpenAI, Groq, LM Studio, and custom models
+  - Dynamic adapter system for easy extension
+  - Local and cloud deployment options
+
+- **Comprehensive Evaluation**
+  - Refusal mapping and instruction following
+  - Tone consistency and psychological reasoning
+  - Performance metrics and benchmarking
+
+- **Developer Experience**
+  - CI/CD ready with GitHub Actions
+  - Automated testing and validation
+  - Detailed logging and debugging
+  - Type hints and documentation
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.10 or higher
+- [Poetry](https://python-poetry.org/) (recommended) or pip
+- Git
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/StressTestor/PromptPressure-EvalSuite.git
+   cd PromptPressure-EvalSuite
+   ```
+
+2. **Set up the environment**
+   ```bash
+   # Install dependencies
+   pip install -r requirements.txt
+   
+   # For development
+   pip install -r requirements-dev.txt
+   ```
+
+3. **Configure environment variables**
+   Create a `.env` file in the project root:
+   ```env
+   # Required API Keys
+   OPENAI_API_KEY=your-openai-key-here
+   GROQ_API_KEY=your-groq-key-here
+   
+   # Optional: LM Studio configuration
+   LMSTUDIO_ENDPOINT=http://localhost:1234/v1
+   ```
+
+### Basic Usage
+
+```bash
+# Run evaluation with default settings
+python run_eval.py
+
+# Run with specific model
+python run_eval.py --model groq --output results.csv
+
+# Generate visualizations
+python visualization/generate_plots.py
+```
+
+### Development
+
+```bash
+# Run tests
+pytest
+
+# Format code
+black .
+
+# Check types
+mypy .
+
+# Lint code
+flake8 .
+```
+
+## 📚 Documentation
+
+For detailed documentation, please visit our [documentation site](https://stressTestor.github.io/PromptPressure-EvalSuite).
+
+- [API Reference](https://stressTestor.github.io/PromptPressure-EvalSuite/api)
+- [Examples](https://stressTestor.github.io/PromptPressure-EvalSuite/examples)
+- [Contributing Guide](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
 
 ---
 

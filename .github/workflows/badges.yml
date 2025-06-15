@@ -1,0 +1,27 @@
+name: Badges
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  workflow_dispatch:
+
+jobs:
+  badges:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Generate badges
+        run: |
+          pip install anybadge
+          # Generate test coverage badge (example)
+          anybadge --label=coverage --file=.github/badges/coverage.svg --value=95 --color=44cc11
+          # Add more badges as needed
