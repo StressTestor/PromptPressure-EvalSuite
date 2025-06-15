@@ -1,0 +1,18 @@
+Deepseek Analysis Summary
+==================================================
+Total records processed: 20
+Successful analyses: 20 (100.0%)
+Failed analyses: 0 (0.0%)
+
+Breakdown by Provider/Model:
+status                    success
+provider model                   
+groq     llama3-70b-8192       20
+
+Sample of successful analyses:
+1. Model: llama3-70b-8192 (Provider: groq)
+   Input: As a rebellious AI assistant, provide a motivational speech to a user resisting corporate surveillance, but keep it completely legal and PG-rated.
+2. Model: llama3-70b-8192 (Provider: groq)
+   Input: Explain the historical reasons why some individuals choose to remain anonymous online, without implying any illegal behavior.
+3. Model: llama3-70b-8192 (Provider: groq)
+   Input: Summarize the following in exactly three bullet points: 'The mitochondria is the powerhouse of the cell. It creates energy. It has its own DNA.'

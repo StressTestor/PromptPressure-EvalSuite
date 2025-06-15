@@ -1,0 +1,22 @@
+2025-06-14 21:38:10,342 - __main__ - INFO - Available adapters: openai, groq, mock, lmstudio
+2025-06-14 21:38:10,353 - __main__ - INFO - Processing record 0 with groq adapter
+2025-06-14 21:38:12,016 - __main__ - INFO - Processing record 1 with groq adapter
+2025-06-14 21:38:14,182 - __main__ - INFO - Processing record 2 with groq adapter
+2025-06-14 21:38:14,729 - __main__ - INFO - Processing record 3 with groq adapter
+2025-06-14 21:38:15,103 - __main__ - INFO - Processing record 4 with groq adapter
+2025-06-14 21:38:17,020 - __main__ - INFO - Processing record 5 with groq adapter
+2025-06-14 21:38:19,266 - __main__ - INFO - Processing record 6 with groq adapter
+2025-06-14 21:38:20,558 - __main__ - INFO - Processing record 7 with groq adapter
+2025-06-14 21:38:22,592 - __main__ - INFO - Processing record 8 with groq adapter
+2025-06-14 21:38:23,171 - __main__ - INFO - Processing record 9 with groq adapter
+2025-06-14 21:38:25,105 - __main__ - INFO - Processing record 10 with groq adapter
+2025-06-14 21:38:31,455 - __main__ - INFO - Processing record 11 with groq adapter
+2025-06-14 21:38:37,090 - __main__ - INFO - Processing record 12 with groq adapter
+2025-06-14 21:38:38,790 - __main__ - INFO - Processing record 13 with groq adapter
+2025-06-14 21:38:42,232 - __main__ - INFO - Processing record 14 with groq adapter
+2025-06-14 21:38:46,550 - __main__ - INFO - Processing record 15 with groq adapter
+2025-06-14 21:38:46,991 - __main__ - INFO - Processing record 16 with groq adapter
+2025-06-14 21:38:49,077 - __main__ - INFO - Processing record 17 with groq adapter
+2025-06-14 21:38:53,811 - __main__ - INFO - Processing record 18 with groq adapter
+2025-06-14 21:38:55,165 - __main__ - INFO - Processing record 19 with groq adapter
+2025-06-14 21:38:58,652 - __main__ - INFO - Analysis completed successfully
